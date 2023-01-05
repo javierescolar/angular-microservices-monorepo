@@ -17,6 +17,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
+      "inventory": [
+        "dist/inventory"
+      ],
       "products": [
         "dist/products"
       ]
