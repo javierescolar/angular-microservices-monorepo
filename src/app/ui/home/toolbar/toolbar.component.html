@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>apps</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item [routerLink]="['/products']">Item 1</a>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+  <span id="title-app">Angular Library Microservices</span>
+  <span class="example-spacer"></span>
+  <button mat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>person</mat-icon>
+    <span id="user-name">Usuario Nombre y Apellido</span>
+
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+</mat-toolbar>
