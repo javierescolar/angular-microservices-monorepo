@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AngularMaterialModule } from './core/angular-material.module';
 import { HomeComponent } from './ui/home/home.component';
-import { ToolbarComponent } from './ui/home/toolbar/toolbar.component';
+import { ToolbarComponent } from './ui/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, ToolbarComponent],
