@@ -8,13 +8,11 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   {
     path: 'products',
-    loadChildren: async () =>
-      (await import('../../projects/products/src/public-api')).ProductsModule,
+    loadChildren: async () => (await import('products')).ProductsModule,
   },
   {
     path: 'inventory',
-    loadChildren: async () =>
-      (await import('../../projects/inventory/src/public-api')).InventoryModule,
+    loadChildren: async () => (await import('inventory')).InventoryModule,
   },
 ];
 

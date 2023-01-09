@@ -4,7 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build products && ng build inventory && ng build",
+    "build:app": "ng build",
+    "build:products": "ng build products",
+    "build:inventory": "ng build inventory",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
