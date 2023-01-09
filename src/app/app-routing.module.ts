@@ -11,6 +11,11 @@ const routes: Routes = [
     loadChildren: async () =>
       (await import('../../projects/products/src/public-api')).ProductsModule,
   },
+  {
+    path: 'inventory',
+    loadChildren: async () =>
+      (await import('../../projects/inventory/src/public-api')).InventoryModule,
+  },
 ];
 
 @NgModule({

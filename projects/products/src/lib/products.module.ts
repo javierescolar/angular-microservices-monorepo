@@ -34,6 +34,5 @@ import { ProductsComponent } from './ui/products.component';
       useClass: MockProductService,
     },
   ],
-  exports: [ProductsComponent, ProductsListComponent],
 })
 export class ProductsModule {}
